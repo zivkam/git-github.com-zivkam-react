@@ -1,23 +1,22 @@
 import React, { Component } from 'react';
 import PortfolioItem from './PortfolioItem';
 
-import image1 from '../assets/img/dragan malesevic tapi duh tesle.jpg'; 
-import image2 from '../assets/img/milena pavlovic barili Zenski_krilati_torzo.jpg'; 
-import image3 from '../assets/img/milic od macve cekajuci hrista.jpeg'; 
-import image4 from '../assets/img/Nadezda-Petrovic-Tri-srpske-seljanke-1905..jpg'; 
-import image5 from '../assets/img/petar lubarda kosovski boj.jpg'; 
-import image6 from '../assets/img/Sava_Šumanović_-_Pijana_lađa.jpg'; 
-import image7 from '../assets/img/Seoba_Srba-paja jovanovic.jpg'; 
-import image8 from '../assets/img/Uroš_Predić_-_Siroče.jpg'; 
-import image9 from '../assets/img/Jovan Bijelic Mala Dubravka.jpg'; 
-import image10 from '../assets/img/Zora_Petrovic_-_Crnogorka.jpg'; 
-import image11 from '../assets/img/Mladen Josic Ranjenici.jpg'; 
-import image12 from '../assets/img/kameni-prolaz dusan kosovac.jpg'; 
+import image1 from '../assets/img/duh tesle.jpg'; 
+import image2 from '../assets/img/Zenski krilati torzo.jpg'; 
+import image3 from '../assets/img/cekajuci hristaa.jpg'; 
+import image4 from '../assets/img/Tri srpske seljanke.jpg'; 
+import image5 from '../assets/img/kosovski boj.jpg'; 
+import image6 from '../assets/img/pijana ladja.jpg'; 
+import image7 from '../assets/img/Seoba Srba.jpg'; 
+import image8 from '../assets/img/Siroče.jpg'; 
+import image9 from '../assets/img/dubravka.jpg'; 
+import image10 from '../assets/img/Crnogorka.png'; 
+import image11 from '../assets/img/ranjenicii.jpg'; 
+import image12 from '../assets/img/kosovac.jpg'; 
 
 
 const portfolio=[
     {
-        
         title:'Duh Tesle ',
     subtitle:'Dragan Malesevic Tapi',
     image:image1},

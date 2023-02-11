@@ -3,6 +3,7 @@ import Header from '../Common/Header';
 import Footer from '../Common/Footer';
 import image from '../assets/img/pozadina.jpg';
 import Portfolio from '../Common/Portfolio';
+import Services from '../Common/Services'
 
 class Home extends Component {
     render() {
@@ -16,8 +17,9 @@ class Home extends Component {
                 showButton={true}
                 image={image}
                 />
-
+               
                 <Portfolio/>
+                <Services/>
                 <Footer/>
             </div>
         );

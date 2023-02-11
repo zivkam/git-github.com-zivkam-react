@@ -1,5 +1,9 @@
 import React, {Component} from 'react';
 import { MdAddCircle } from "react-icons/md";
+import EnhancedDisikes from '../HOC/dislike';
+import EnhancedLikes from '../HOC/like';
+
+
 
 class PortfolioItem extends Component {
     render(){
@@ -17,7 +21,10 @@ class PortfolioItem extends Component {
               <h4>{this.props.title}</h4>
               <p className="text-muted">{this.props.subtitle}</p>
             <button className="btn" >
-        <MdAddCircle />
+       <EnhancedLikes/> 
+       <EnhancedDisikes/>
+       <MdAddCircle />
+        
       </button>
       </div>
             

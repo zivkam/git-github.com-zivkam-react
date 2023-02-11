@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
 import {BsCart4} from "react-icons/bs"
-
+//import image22 from '../src/components/assets/img/logo.png'; 
 
 class PageWrapper extends Component {
 
